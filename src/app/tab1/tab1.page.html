@@ -13,5 +13,10 @@
     </ion-toolbar>
   </ion-header>
 
+  <ion-button (click)="captureImage()">
+    Click Picture
+ </ion-button>
+ <img [src]="clickedImage" />
+
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
